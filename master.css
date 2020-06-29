@@ -6,6 +6,9 @@ body {
 a .card-img-top:hover {
     opacity: 0.5;
 }
+.container-md.my-5 {
+    padding-top: 50px; margin-bottom: 10%;
+}
 #contact_section a, #contact_section a:hover {
     color: teal;
 }
@@ -18,6 +21,9 @@ a .card-img-top:hover {
     z-index: 2;
     width: auto;
     font-size: x-large;
+}
+h4.m-4 {
+    border-bottom: 1px solid #ddd;
 }
 .navbar-brand {
     font-size: xx-large;
@@ -55,8 +61,4 @@ a .card-img-top:hover {
     #contact_card {
         max-width: 100%;
     }
-}
-
-@media screen and (max-width:768px) {
-
 }
