@@ -1,0 +1,45 @@
+
+body {
+    position: relative;
+    padding-left: 15%; 
+}
+a .card-img-top:hover {
+    opacity: 0.5;
+}
+#side-bar {
+    height: 100%;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: auto;
+}
+
+@media screen and (max-width:576px) {
+    #side-bar {
+        height: auto;
+        width: 100%;
+        position: fixed;
+    } 
+    #side-bar a {
+        float: left;
+    }
+    body {
+        padding: 10% 0 0 0;
+        text-align:center;
+    }
+    h1 {
+        text-align: center;
+    }
+    #about_section {
+        align-items: center;
+    }
+    #about_card {
+        margin:0;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+}
