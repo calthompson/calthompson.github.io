@@ -6,6 +6,9 @@ body {
 a .card-img-top:hover {
     opacity: 0.5;
 }
+#contact_section a, #contact_section a:hover {
+    color: teal;
+}
 #side-bar {
     height: 100%;
     padding: 0;
@@ -20,6 +23,9 @@ a .card-img-top:hover {
     font-size: xx-large;
 }
 
+.nav-pills .nav-link.active {
+    background-color: teal;
+}
 @media screen and (max-width:576px) {
     #side-bar {
         height: auto;
